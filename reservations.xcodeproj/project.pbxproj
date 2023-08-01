@@ -14,6 +14,7 @@
 		498C07782A79902700E80585 /* reservationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C07772A79902700E80585 /* reservationsTests.swift */; };
 		498C07822A79902700E80585 /* reservationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C07812A79902700E80585 /* reservationsUITests.swift */; };
 		498C07842A79902700E80585 /* reservationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C07832A79902700E80585 /* reservationsUITestsLaunchTests.swift */; };
+		498C07912A799BCD00E80585 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498C07902A799BCC00E80585 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		498C077D2A79902700E80585 /* reservationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498C07812A79902700E80585 /* reservationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationsUITests.swift; sourceTree = "<group>"; };
 		498C07832A79902700E80585 /* reservationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		498C07902A799BCC00E80585 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				498C07682A79902500E80585 /* ContentView.swift */,
 				498C076A2A79902700E80585 /* Assets.xcassets */,
 				498C076C2A79902700E80585 /* Preview Content */,
+				498C07902A799BCC00E80585 /* MyView.swift */,
 			);
 			path = reservations;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498C07912A799BCD00E80585 /* MyView.swift in Sources */,
 				498C07692A79902500E80585 /* ContentView.swift in Sources */,
 				498C07672A79902500E80585 /* reservationsApp.swift in Sources */,
 			);
